@@ -29,3 +29,15 @@
             break;
     }
     echo "<p>$bandana</p>";
+
+    // Rewriting everything using match
+    $turtle = 'Don';
+    $bandana = match ($turtle) {
+        'Leo' => 'blue',
+        'Raph' => 'red',
+        'Mike' => 'purple',
+        'Don' => 'purple',
+        default => 'red',
+    };
+
+    echo $bandana;
