@@ -1,25 +1,25 @@
 <?php
-    if (10 < 1) {
-        echo '<p>We stopped at if</p>';
-    } else if (10 < 4) {
-        echo '<p>We stopped at the first if else</p>';
-    } else if (10 < 11) {
-        echo '<p>We stopped at the second if else</p>';
-    } else if (10 < 20) {
-        echo '<p>We stopped at the 3rd if else</p>';
-    } else {
-        echo '<p>None of the conditions are true, we never stopped, so this is the else</p>';
-    }
+if (10 < 1) {
+    echo '<p>We stopped at if</p>';
+} else if (10 < 4) {
+    echo '<p>We stopped at the first if else</p>';
+} else if (10 < 11) {
+    echo '<p>We stopped at the second if else</p>';
+} else if (10 < 20) {
+    echo '<p>We stopped at the 3rd if else</p>';
+} else {
+    echo '<p>None of the conditions are true, we never stopped, so this is the else</p>';
+}
 
-    echo "out of the if";
+echo "out of the if";
 
-    $is_logged_in = 1;
+$is_logged_in = 1;
 
-    if (1 == $is_logged_in) {
-        echo '<h3>Welcome back, user!</h3>';
-    } else {
-        echo '<h3>Welcome to the site!</h3>';
-    }
+if (1 == $is_logged_in) {
+    echo '<h3>Welcome back, user!</h3>';
+} else {
+    echo '<h3>Welcome to the site!</h3>';
+}
 ?>
 
 <!-- Alternative Syntax for if -->
